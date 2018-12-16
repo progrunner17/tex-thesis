@@ -7,3 +7,12 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
+      - run:
+          name: Install dependencies
+          command: |
+            apk add --no-cache make
+      - run:
+          name: Build image
+          command: |
+            cd build
+            make
