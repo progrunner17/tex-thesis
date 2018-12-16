@@ -1,5 +1,7 @@
+[![CircleCI](https://circleci.com/gh/progrunner17/tex-thesis.svg?style=shield&)](https://circleci.com/gh/progrunner17/tex-thesis)
 # tex-thesis
 卒論用tex環境
+
 
 
 ## Prerequisite
