@@ -16,3 +16,11 @@ jobs:
           command: |
             cd build
             make
+workflows:
+  version: 2
+  build_image:
+    jobs:
+      - build:
+          filters:
+            tags:
+              only: /.*/
